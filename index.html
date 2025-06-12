@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Acessórios Infantil.com</title>
+</head>
+<body class="bg-info-subtle">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bs-primary-bg-subtle">
+  <div class="container-fluid">
+    <img src="./imagens/logo.png" alt="Logo Universo Kids" class="img-fluid" width="200">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./páginas/Sobrenos.html">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./páginas/contatos.html">Contatos</a>
+        </li>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Produtos
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="páginas/">Brinquedos Educativos</a></li>
+            <li><a class="dropdown-item" href="páginas/">Livros Infantis</a></li>
+            <li><a class="dropdown-item" href="páginas/">Fantasias Temáticas</a></li>
+            <li><a class="dropdown-item" href="páginas/">Moda Infantil</a></li>
+          </ul>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link active" href="./páginas/feedback.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="páginas/">Colaboradores</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="Pesquisar">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
+        <button class="btn btn-info" type="submit">Ir</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!-- Carrossel responsivo -->
+    <div class="container mt-4">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/carrosel1.png" class="d-block w-100 width="300 height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/carrosel2.png" class="d-block w-100 width="300 height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/carrosel3.png" class="d-block w-100 width="300 height="500">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Acordeon 1 -->
+    <div class="container mt-5">
+        <div class="accordion" id="accordionExample1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
+                        aria-expanded="true" aria-controls="collapseOne1">
+                        Nossa Missão
+                    </button>
+                </h2>
+                <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1"
+                    data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                        Oferecer os melhores produtos infantis com foco em qualidade, segurança e diversão, proporcionando experiências inesquecíveis para as crianças.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acordeon 2 -->
+    <div class="container mt-3 mb-5">
+        <div class="accordion" id="accordionExample2">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                        aria-expanded="false" aria-controls="collapseOne2">
+                        Política de Entrega
+                    </button>
+                </h2>
+                <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                    data-bs-parent="#accordionExample2">
+                    <div class="accordion-body">
+                        Realizamos entregas em todo o Brasil com prazo de 3 a 10 dias úteis. Trabalhamos com transportadoras parceiras para garantir segurança e agilidade.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; INSTAGRAM: <strong>universokids_ofc</strong></p>
+        <p>&copy; FACEBOOK: <strong>universokids_ofc</strong></p>
+    </footer>
+
+</body>
+</html>
